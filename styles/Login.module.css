@@ -1,0 +1,48 @@
+.outerlogindiv {
+  text-align: center;
+  border: 2px solid black;
+  width: 500px;
+}
+.datapoint {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+}
+.datapoint .labels {
+  padding: 10px;
+}
+.datapoint .txt {
+  padding: 12px;
+  border-radius: 8px;
+  margin: 0px 15px;
+}
+.click {
+  padding: 10px;
+}
+.click .btn {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.passdiv {
+  border: 2px solid black;
+  width: 450px;
+  margin: auto;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+}
+.passdiv .passtxt {
+  flex: 1;
+  padding: px;
+  overflow: hidden;
+  border: none;
+  outline: none;
+}
+.privacy {
+  text-align: center;
+  border: none;
+  background-color: transparent;
+}

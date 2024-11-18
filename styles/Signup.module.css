@@ -1,0 +1,31 @@
+/* Add padding to containers */
+.outerbox {
+  border: 2px solid black;
+  width: 500px;
+  text-align: center;
+  padding: 10px;
+}
+.topbox {
+  padding: 20px;
+}
+.middlebox {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.middlebox label {
+  padding: 10px;
+  font-size: 15px;
+}
+.middlebox input {
+  padding: 10px;
+  border-radius: 8px;
+}
+.lastbox {
+  padding: 10px;
+}
+.lastbox button {
+  padding: 10px;
+  border-radius: 30px;
+}
